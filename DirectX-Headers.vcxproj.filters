@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="googletest">
+      <UniqueIdentifier>{E2296FC4-CEE1-B011-37E9-896D23C04B02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\directx">
+      <UniqueIdentifier>{8BA3194B-F72E-870F-0040-0A046C4AE30F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\dxguids">
+      <UniqueIdentifier>{F0D4586D-5C60-C631-6571-4926D17B2232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\wsl">
+      <UniqueIdentifier>{4E1BC131-BAD0-3927-43C5-33FEAF79302B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\wsl\stubs">
+      <UniqueIdentifier>{0EF02C0D-7A06-2BA3-C37D-B6C42FD3FB2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\wsl\stubs\wrl">
+      <UniqueIdentifier>{32163EBB-9E82-F9B5-6776-9113D3A11B1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{65689E7C-519F-9F0D-FA8B-8510E6A11B0F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\directx\d3d12.h">
+      <Filter>include\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\directx\d3d12compatibility.h">
+      <Filter>include\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\directx\d3d12sdklayers.h">
+      <Filter>include\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\directx\d3d12shader.h">
+      <Filter>include\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\directx\d3d12video.h">
+      <Filter>include\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\directx\d3dcommon.h">
+      <Filter>include\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\directx\d3dx12.h">
+      <Filter>include\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\directx\d3dx12_barriers.h">
+      <Filter>include\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\directx\d3dx12_check_feature_support.h">
+      <Filter>include\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\directx\d3dx12_core.h">
+      <Filter>include\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\directx\d3dx12_default.h">
+      <Filter>include\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\directx\d3dx12_pipeline_state_stream.h">
+      <Filter>include\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\directx\d3dx12_property_format_table.h">
+      <Filter>include\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\directx\d3dx12_render_pass.h">
+      <Filter>include\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\directx\d3dx12_resource_helpers.h">
+      <Filter>include\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\directx\d3dx12_root_signature.h">
+      <Filter>include\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\directx\d3dx12_state_object.h">
+      <Filter>include\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\directx\dxcore.h">
+      <Filter>include\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\directx\dxcore_interface.h">
+      <Filter>include\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\directx\dxgicommon.h">
+      <Filter>include\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\directx\dxgiformat.h">
+      <Filter>include\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dxguids\dxguids.h">
+      <Filter>include\dxguids</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wsl\stubs\basetsd.h">
+      <Filter>include\wsl\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wsl\stubs\oaidl.h">
+      <Filter>include\wsl\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wsl\stubs\ocidl.h">
+      <Filter>include\wsl\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wsl\stubs\rpc.h">
+      <Filter>include\wsl\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wsl\stubs\rpcndr.h">
+      <Filter>include\wsl\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wsl\stubs\unknwn.h">
+      <Filter>include\wsl\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wsl\stubs\unknwnbase.h">
+      <Filter>include\wsl\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wsl\stubs\winapifamily.h">
+      <Filter>include\wsl\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wsl\stubs\wrl\client.h">
+      <Filter>include\wsl\stubs\wrl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wsl\stubs\wrl\implements.h">
+      <Filter>include\wsl\stubs\wrl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wsl\winadapter.h">
+      <Filter>include\wsl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wsl\wrladapter.h">
+      <Filter>include\wsl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="googletest\feature_support_test.cpp">
+      <Filter>googletest</Filter>
+    </ClCompile>
+    <ClCompile Include="src\d3dx12_property_format_table.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dxguids.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="test\feature_check_test.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\test.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
